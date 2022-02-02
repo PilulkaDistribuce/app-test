@@ -17,6 +17,6 @@ class MainActivity : AppCompatActivity() {
         val ws: WebSettings = myWebView.settings
         ws.javaScriptEnabled = true
         ws.domStorageEnabled = true
-        myWebView.loadUrl("https://confirmo.net/public/invoice/inv2dq2x38wd/cs")
+        myWebView.loadUrl("https://www.pilulka.cz/pay/confirmo?method=PAY_CONFIRMO&uid=1_5de90c6c7874c2.03288097&platform=mobile&wasCreatedFromFastCheckout=0")
     }
 }
